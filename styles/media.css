@@ -1,0 +1,42 @@
+@media screen and (max-width: 632px) {
+    .container-login__entrada, .container-login__botao {
+        width: 9em;
+    }
+
+    .container-login__logotipo {
+        width: 5em;
+    }
+
+    .container-login {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    
+    .container-login {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 352px) {
+    
+    .container-login {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 253px) {
+    
+    .container-login {
+        width: 100%;
+    }
+}
+
+
+
+@media (orientation: landscape) {
+    .container-login {
+        width: 80%;
+    }
+}
