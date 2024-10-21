@@ -1,0 +1,19 @@
+@media screen and (max-width: 400px) {
+    .container-login__botao {
+        width: 5em;
+    }
+
+
+.container-login__logotipo {
+        width: 10em;
+}
+
+}
+
+
+@media (orientation: landscape) {
+    .container-login {
+        width: 100vw;
+        height: 100vh;
+    }
+}

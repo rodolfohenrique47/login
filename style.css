@@ -1,0 +1,23 @@
+@import url("styles/reset.css");
+@import url("styles/container-login.css");
+@import url("styles/media.css");
+
+:root {
+    --cor-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+    --cor-fundo-container: #00171f;
+    --fonte-texto: 'mate';
+    --cor-fundo-botao: #ffffff;
+    --cor-fonte-texto: #ffffff;
+}
+
+body {
+    font-size: 1em;
+    color: var(--cor-fonte-texto);
+    font-family: var(--fonte-texto);
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 10em;
+}
