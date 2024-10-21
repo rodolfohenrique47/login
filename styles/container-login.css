@@ -16,8 +16,8 @@
 
 
 .container-login__logotipo {
-    width: 18em;
-    border-radius: 2em;
+    width: 15em;
+    border-radius: 1.5em;
     padding-top: 0.8em;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 
@@ -56,10 +56,10 @@
 .container-login__botao {
     font-size: 1.9em;
     font-family: var(--fonte-texto);
-    background-color: var(--cor-fundo-botao);
+    background-color: transparent;
     color: #000000;
     border-radius: 0.2em;
-    border: none;
+    border: 0.5em solid white ;
     font-weight: 700;
     box-shadow: 1em 1em 1em rgba(0, 0, 0, 0.1);
     width: 13em;
